@@ -1,0 +1,14 @@
+<div class="card-container">
+  @for(card of profileDetails; track card.id){
+    <mat-card  class="card">
+      <div class="card-image-container">
+        <img mat-card-image [src]="card.imageUrl" alt="{{ card.name }}" />
+      </div>
+      <mat-card-content class="card-content">
+        <mat-card-title>{{ card.name }}</mat-card-title>
+        <mat-card-subtitle>{{ card.age }}, {{card.occupation}}, {{card.language}}, {{card.city}}</mat-card-subtitle>
+      </mat-card-content>
+    </mat-card>
+  }
+  
+</div>

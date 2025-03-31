@@ -1,0 +1,39 @@
+<div class="container">
+  <ngx-slick-carousel [config]="slideConfig">
+    @for (item of profileData; track item.id) {
+        <div ngxSlickItem class="slide">
+            <mat-card>
+                <mat-card-content>
+                    <div class="image-content">
+                      <img src="{{item.imageUrl}}" alt="image" height="270px" width="100%" (click)="onClickButton(item.id)">
+                    </div>                    
+                        <h3>{{item.name}}</h3>
+                        <div class="details">
+                        <p>{{item.age}} Yrs,</p>
+                        <p>{{item.height}},</p>
+                        <p>{{item.language}},</p>
+                        <p>{{item.occupation}},</p>
+                        <p>{{item.city}}</p>
+                    </div>
+                </mat-card-content>
+                <mat-card-actions>
+                    <button mat-raised-button (click)="onClickButton(item.id)">Yes</button>
+                    <button mat-raised-button>No</button>
+                </mat-card-actions>
+            </mat-card>
+            
+        </div>
+    }
+    
+  </ngx-slick-carousel>
+</div>
+  <!-- <div class="container">
+    @for (item of profileData; track item.id) {
+        <img src="{{item.imageUrl}}" alt="image">
+        <li>{{ item.name }}</li>        
+        } @empty {
+        <li>There are no items.</li>
+        }
+  </div> -->
+
+  <router-outlet></router-outlet>

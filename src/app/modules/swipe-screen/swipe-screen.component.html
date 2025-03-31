@@ -1,0 +1,14 @@
+<mat-card class="example-card"
+[@cardAnimator]="animationState"
+(@cardAnimator.done)="resetAnimationState()"
+(swipeLeft)="startAnimation('slideOutLeft')"
+(swipeRight)="startAnimation('zoomOutRight')">
+
+<mat-card-content>
+  <mat-card-title>Swiper cards</mat-card-title>
+</mat-card-content>
+<mat-card-actions>
+  <button mat-raised-button color="primary" (tap)="startAnimation('wobble')">WOBBLE</button>
+    <button mat-raised-button color="primary" (tap)="startAnimation('swing')">SWING</button>
+</mat-card-actions>
+</mat-card>

@@ -1,0 +1,76 @@
+{
+    "data":[
+        {
+            "id":1,
+            "name":"Pallavi",
+            "age":"27",
+            "height":"167cm",
+            "language":"Tamil",
+            "occupation":"Doctor",
+            "city":"Chennai",
+            "state":"Tamil Nadu",
+            "country":"India",
+            "imageUrl":"/assets/images/person-1.jpg"
+        },
+        {
+            "id":2,
+            "name":"Anushya",
+            "age":"27",
+            "height":"170cm",
+            "language":"Tamil",
+            "occupation":"Teacher",
+            "city":"Chennai",
+            "state":"Tamil Nadu",
+            "country":"India",
+            "imageUrl":"/assets/images/person-2.jpg"
+        },
+        {
+            "id":3,
+            "name":"Keerthy",
+            "age":"25",
+            "height":"165cm",
+            "language":"Tamil",
+            "occupation":"Designer",
+            "city":"Chennai",
+            "state":"Tamil Nadu",
+            "country":"India",
+            "imageUrl":"/assets/images/person-3.jpg"
+        },
+        {
+            "id":4,
+            "name":"Trisha",
+            "age":"28",
+            "height":"169cm",
+            "language":"Tamil",
+            "occupation":"Analyst",
+            "city":"Chennai",
+            "state":"Tamil Nadu",
+            "country":"India",
+            "imageUrl":"/assets/images/person-4.jpg"
+        },
+        {
+            "id":5,
+            "name":"Kalyani",
+            "age":"25",
+            "height":"167cm",
+            "language":"Tamil",
+            "occupation":"Architect",
+            "city":"Chennai",
+            "state":"Tamil Nadu",
+            "country":"India",
+            "imageUrl":"/assets/images/person-5.jpg"
+        },
+        {
+            "id":6,
+            "name":"Pavithra",
+            "age":"25",
+            "height":"160cm",
+            "language":"Tamil",
+            "occupation":"Engineer",
+            "city":"Chennai",
+            "state":"Tamil Nadu",
+            "country":"India",
+            "imageUrl":"/assets/images/person-6.jpg"
+        }
+    ]
+}
